@@ -1,5 +1,5 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import BoxSala from "../Components/BoxSala";
+import HorarioProfessor from "../Pages/HorarioProfessor";
 
 const App = () => {
   return (
@@ -7,7 +7,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element="Pagina Inicial" /> */}
-        <Route path="/" element={<BoxSala/>} />
+        <Route path="/" element={<HorarioProfessor/>} />
       </Routes>
     </BrowserRouter>
     </>
