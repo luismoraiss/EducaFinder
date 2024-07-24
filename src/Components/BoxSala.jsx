@@ -1,14 +1,15 @@
-import { ContainerBox } from "../Styles/BoxSala"
+import { ContainerBox } from "../Styles/BoxSala";
 
-const BoxSala = ({salaText,statusSala})=>{
-    return(
+const BoxSala = ({ salaText, statusSala }) => {
+  return (
     <>
-        <ContainerBox>
-            {salaText}
-            {props.status ="vazio"}
-        </ContainerBox>    
-    </>
-    )
-}
+      <ContainerBox statusSala={statusSala}>
+        {salaText = salaText}
 
-export default BoxSala
+        
+      </ContainerBox>
+    </>
+  );
+};
+
+export default BoxSala;
