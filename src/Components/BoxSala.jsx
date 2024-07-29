@@ -1,12 +1,10 @@
 import { ContainerBox } from "../Styles/BoxSala";
 
-const BoxSala = ({ salaText, statusSala }) => {
+const BoxSala = ({ salaText, statusDaSala }) => {
   return (
     <>
-      <ContainerBox statusSala={statusSala}>
+      <ContainerBox statusSala={statusDaSala}>
         {salaText = salaText}
-
-        
       </ContainerBox>
     </>
   );

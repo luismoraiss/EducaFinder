@@ -1,12 +1,9 @@
-import BoxSala from "../Components/BoxSala";
+import ContainerSalas from "../Components/ContainerGeral"
 
 const HorarioProfessor = () => {
   return (
     <>
-      <BoxSala 
-      salaText={"Sala 06"} 
-      statusSala={"Intervalo"}
-        />
+      <ContainerSalas/>
     </>
   );
 };
