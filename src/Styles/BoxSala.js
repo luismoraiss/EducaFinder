@@ -12,11 +12,11 @@ export const ContainerBox = styled.div`
 
   background-color: ${(props) => {
     switch (props.statusSala) {
-      case "1": //Em planejamento
+      case "Em planejamento": //Em planejamento
         return cores.Green;
-      case "2": //Em aula
+      case "Em aula": //Em aula
         return cores.Red;
-      case "3": //Intervalo
+      case "Intervalo": //Intervalo
         return cores.Yellow;
       case "4": //Dia
         return cores.DarkGray;
@@ -35,17 +35,38 @@ export const ContainerGeral = styled.div`
   background-color: ${cores.Blue};
 `;
 
-export const ContainerDia = styled.div`
-  background-color: ${cores.White};
+export const HorarioSemana = styled.div`
   display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 50vh;
+  width: 50vw;
+  background-color: ${cores.Green};
+`;
+
+export const ContainerDia = styled.div`
+  /* background-color: ${cores.White}; */
+  border-color: ${cores.Black};
+  border: 5px solid;
+  display: flex;
+  border-radius: 5px;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   width: 10vw;
   min-height: 30vh;
 `;
-export const HorarioSemana = styled.div`
+
+export const DivDiaSemana = styled.div`
   display: flex;
-  flex-direction: row;
-  background-color: ${cores.Green};
+  justify-content: flex-start;
+  align-items: flex-start;
 `;
+
+export const Horario = styled.span`
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 600;
+`;
+
+export const DivBox = styled.div``;
