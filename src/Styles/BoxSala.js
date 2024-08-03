@@ -9,6 +9,7 @@ export const ContainerBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   background-color: ${(props) => {
     switch (props.statusSala) {
@@ -59,8 +60,9 @@ export const ContainerDia = styled.div`
 
 export const DivDiaSemana = styled.div`
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
+  justify-content:space-between;
 `;
 
 export const Horario = styled.span`
@@ -69,4 +71,9 @@ export const Horario = styled.span`
   font-weight: 600;
 `;
 
-export const DivBox = styled.div``;
+export const DivBox = styled.div`
+`;
+
+export const DivTitleBox = styled.div`
+  margin-bottom:30px;
+`;

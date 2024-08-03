@@ -1,394 +1,370 @@
 {
-  "Segunda": [
-    {
-      "hora": "07:15 às 08:15",
-      "status": "Em aula",
-      "sala": "Sala 13",
-      "professor": "João"
-    },
-    {
-      "hora": "07:15 às 08:15",
-      "status": "Em aula",
-      "sala": "Sala 14",
-      "professor": "João"
-    }
-  ],
-
-  "Terça": [
-    {
-       "hora": "07:15 às 08:15",
-      "status": "Em aula",
-      "sala": "Sala 14",
-      "professor": "João"
-    }
-  ],
-
   "professores": [
     {
-        "id": 1,
-        "nome": "Adelia carla vertano da silva",
-        "emai": "adelia.silva@docente.al.sesi.com.br",
-        "area": "Ciências Da Natureza e suas tecnologias",
-        "horarios": [
+      "id": 1,
+      "nome": "Adelia carla vertano da silva",
+      "emai": "adelia.silva@docente.al.sesi.com.br",
+      "area": "Ciências Da humanas e suas tecnologias",
+      "horarios": [
+        {
+          "dia": "Segunda-feira",
+          "horarios_do_dia": [
             {
-                "dia": "Segunda-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Terça-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 10:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:15 às 10:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
-
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Quarta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
             },
             {
-                "dia": "Quinta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Projetos",
-                        "sala": "Projetos"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },{
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
-
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Sexta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },{
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
             }
-        ]
+          ]
+        },
+        {
+          "dia": "Terça-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 10:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:15 às 10:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Quarta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Quinta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Projetos",
+              "sala": "Projetos"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Sexta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        }
+      ]
     },
     {
-        "id": 2,
-          "nome": "Carla Vertano da silva",
-          "emai": "adelia.silva@docente.al.sesi.com.br",
-          "area": "Ciências Da Natureza e suas tecnologias",
-          "horarios": [
+      "id": 2,
+      "nome": "Carla Vertano da silva",
+      "emai": "adelia.silva@docente.al.sesi.com.br",
+      "area": "Ciências Da Natureza e suas tecnologias",
+      "horarios": [
+        {
+          "dia": "Segunda-feira",
+          "horarios_do_dia": [
             {
-                "dia": "Segunda-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Terça-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 10:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:15 às 10:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
-
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Quarta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
             },
             {
-                "dia": "Quinta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Projetos",
-                        "sala": "Projetos"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },{
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
-
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
             },
             {
-                "dia": "Sexta-feira",
-                "horarios_do_dia": [
-                    {
-                        "hora": "07:15 às 08:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "08:15 às 09:15",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora": "09:15 às 09:45",
-                        "status": "Intervalo",
-                        "sala": "Intervalo"
-                    },
-                    {
-                        "hora":"09:45 às 10:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },
-                    {
-                        "hora":"10:45 às 11:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    },{
-                        "hora":"11:45 às 12:45",
-                        "status": "Em aula",
-                        "sala": "Sala 13"
-                    }
-                ]
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
             }
-        ]
+          ]
+        },
+        {
+          "dia": "Terça-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 10:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:15 às 10:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Quarta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Quinta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Projetos",
+              "sala": "Projetos"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        },
+        {
+          "dia": "Sexta-feira",
+          "horarios_do_dia": [
+            {
+              "hora": "07:15 às 08:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "08:15 às 09:15",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "09:15 às 09:45",
+              "status": "Intervalo",
+              "sala": "Intervalo"
+            },
+            {
+              "hora": "09:45 às 10:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "10:45 às 11:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            },
+            {
+              "hora": "11:45 às 12:45",
+              "status": "Em aula",
+              "sala": "Sala 13"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
